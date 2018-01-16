@@ -1,0 +1,16 @@
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\XUnitTestOnlineMutants.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\XUnitTestOnlineMutants.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\XUnitTestOnlineMutants.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\XUnitTestOnlineMutants.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\XUnitTestOnlineMutants.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\XUnitTestOnlineMutants\obj\Debug\netcoreapp2.0\XUnitTestOnlineMutants.pdb

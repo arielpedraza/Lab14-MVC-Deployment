@@ -1,0 +1,24 @@
+﻿@model OnlineMutants.Models.Mutant
+<link href="~/style.css" rel="stylesheet" />
+
+<div asp-validation-summary="All" class="form">
+    <h2>Welcome Fellow Mutants!</h2>
+    <h4>Please register your profile:</h4>
+
+    <form method="post">
+        <label for="RealName">Real Name:</label>
+        <input asp-for="Mutant.RealName" maxlength="25" name="RealName" /><br />
+        <label for="Alias">Alias/Code Name:</label>
+        <input maxlength="25" name="Alias" /><br />
+        <label for="Powers">Mutant Powers:</label>
+        <input maxlength="50" name="Powers" /><br />
+        <label for="Team">Assigned Team:</label>
+        <select name="Team">
+            <option value="X-Men">X-Men</option>
+            <option value="X-Force">X-Force</option>
+            <option value="X-Factor">X-Factor</option>
+            <option value="New Mutants">New Mutants</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</div>
