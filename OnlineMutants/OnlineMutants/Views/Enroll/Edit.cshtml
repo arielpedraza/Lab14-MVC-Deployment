@@ -2,16 +2,15 @@
 <link href="~/style.css" rel="stylesheet" />
 
 <div asp-validation-summary="All" class="form">
-    <h2>Welcome Fellow Mutants!</h2>
-    <h4>Please register your profile:</h4>
+    <h4>Edit profile:</h4>
 
     <form method="post">
         <label for="RealName">Real Name:</label>
-        <input asp-for="Mutant.RealName" maxlength="25" name="RealName" /><br />
+        <input maxlength="25" name="RealName" value="@Model.RealName" /><br />
         <label for="Alias">Alias/Code Name:</label>
-        <input maxlength="25" name="Alias" /><br />
+        <input maxlength="25" name="Alias" value="@Model.Alias" /><br />
         <label for="Powers">Mutant Powers:</label>
-        <input maxlength="50" name="Powers" /><br />
+        <input maxlength="50" name="Powers" value="@Model.Powers" /><br />
         <label for="Team">Assigned Team:</label>
         <select name="Team">
             <option value="X-Men">X-Men</option>

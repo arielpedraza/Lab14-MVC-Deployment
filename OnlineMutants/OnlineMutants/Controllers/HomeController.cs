@@ -7,8 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using OnlineMutants.Data;
 using OnlineMutants.Models;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace OnlineMutants.Controllers
 {
     public class HomeController : Controller
@@ -26,17 +24,12 @@ namespace OnlineMutants.Controllers
             return View();
         }
 
-        public async Task<IActionResult> OnPostAsync(Mutant mutant)
+        [HttpPost]
+        public IActionResult Index(Mutant mutant)
         {
-            if (!ModelState.IsValid) { return View(); }
             _context.MutantTable.Add(mutant);
-            await _context.SaveChangesAsync();
-            return RedirectToPage("/");
-        }
-
-        public async Task OnGetAsync()
-        {
-            IList<Mutant> mutants = await _context.MutantTable.AsNoTracking().ToListAsync();
+            _context.SaveChanges();
+            return RedirectToAction("ViewAll", "Enroll");
         }
     }
 }
