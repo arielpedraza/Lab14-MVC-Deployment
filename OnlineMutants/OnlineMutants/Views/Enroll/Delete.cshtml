@@ -1,0 +1,32 @@
+﻿@model OnlineMutants.Models.Mutant
+<link href="~/style.css" rel="stylesheet" />
+
+<body>
+    <table>
+        <tr><td id="tname" colspan="2">Confirm Deletion:</td></tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.RealName</td>
+        </tr>
+        <tr>
+            <td>Alias</td>
+            <td>@Model.Alias</td>
+        </tr>
+        <tr>
+            <td>Ability</td>
+            <td>@Model.Powers</td>
+        </tr>
+        <tr>
+            <td>Member of</td>
+            <td>@Model.Team</td>
+        </tr>
+        <tr>
+            <td>Are you sure?</td>
+            <td>
+                <form method="post">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>

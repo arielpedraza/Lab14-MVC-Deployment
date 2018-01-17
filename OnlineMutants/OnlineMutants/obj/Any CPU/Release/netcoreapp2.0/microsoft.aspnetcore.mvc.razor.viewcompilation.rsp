@@ -1,0 +1,10 @@
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=OnlineMutants
+--content-root=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\Views\Enroll\Delete.cshtml
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\Views\Enroll\Details.cshtml
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\Views\Enroll\Edit.cshtml
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\Views\Enroll\ViewAll.cshtml
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\Views\Home\Index.cshtml
+--file=C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\_ViewImports.cshtml

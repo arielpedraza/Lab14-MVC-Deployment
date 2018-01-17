@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\bin\Debug\netcoreapp2.0\OnlineMutants.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.dll
+C:\Users\pedra\Documents\codefellows\401\Lab14-MVC-Deployment\OnlineMutants\OnlineMutants\obj\Debug\netcoreapp2.0\OnlineMutants.pdb

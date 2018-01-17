@@ -1,0 +1,25 @@
+﻿@model IEnumerable<OnlineMutants.Models.Mutant>
+<link href="~/style.css" rel="stylesheet" />
+
+<body>
+    <table>
+        <tr><td id="tname" colspan="4">Mutant Database</td></tr>
+        <tr id="th">
+            <td>Name</td>
+            <td>Alias</td>
+            <td>Ability</td>
+            <td>Member of</td>
+        </tr>
+        @foreach (var i in Model)
+        {
+        <tr>
+            <td>@i.RealName</td>
+            <td>@i.Alias</td>
+            <td>@i.Powers</td>
+            <td>@i.Team</td>
+            <td><a asp-action="Details" asp-controller="Enroll" asp-route-id="@i.Id">Details</a></td>
+        </tr>
+
+        }
+    </table>
+</body>

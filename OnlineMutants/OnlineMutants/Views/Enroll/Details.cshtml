@@ -1,0 +1,28 @@
+﻿@model OnlineMutants.Models.Mutant
+<link href="~/style.css" rel="stylesheet" />
+
+<body>
+    <table>
+        <tr><td id="tname" colspan="2">Mutant Database</td></tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.RealName</td>
+        </tr>
+        <tr>
+            <td>Alias</td>
+            <td>@Model.Alias</td>
+        </tr>
+        <tr>
+            <td>Ability</td>
+            <td>@Model.Powers</td>
+        </tr>
+        <tr>
+            <td>Member of</td>
+            <td>@Model.Team</td>
+        </tr>
+        <tr>
+            <td><a asp-action="Edit" asp-controller="Enroll" asp-route-id="@Model.Id">Edit</a></td>
+            <td><a asp-action="Delete" asp-controller="Enroll" asp-route-id="@Model.Id">Delete</a></td>
+        </tr>
+    </table>
+</body>
