@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "XUnitTestOnlineMutants/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "2.0.1",
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "OnlineMutants": "1.0.0",
           "xunit": "2.3.1",

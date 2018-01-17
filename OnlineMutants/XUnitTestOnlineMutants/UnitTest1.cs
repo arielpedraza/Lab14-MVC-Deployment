@@ -11,18 +11,22 @@ namespace XUnitTestOnlineMutants
     {
         MutantDbContext _context;
 
-        public UnitTest1()
-        {
-            DbContextOptionsBuilder<MutantDbContext> builder = new DbContextOptionsBuilder<MutantDbContext>();
-            builder.UseInMemoryDatabase(Guid.NewGuid().ToString());
-            DbContextOptions<MutantDbContext> options = builder.Options;
-            _context = new MutantDbContext(options);
-        }
+        DbContextOptions<MutantDbContext> options = new DbContextOptionsBuilder<MutantDbContext>()
+                                                        .UseInMemoryDatabase(Guid.NewGuid().ToString())
+                                                        .Options;
 
         [Fact]
-        public void Test1()
+        public void TestHomeIndexReturnsView()
         {
-
+            using (_context = new MutantDbContext(options))
+            {
+                // Arrange
+                HomeController controller = new HomeController(_context);
+                // Act
+                var result = controller.Index();
+                // Assert
+                Assert.NotNull(result);
+            }
         }
     }
 }
