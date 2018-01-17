@@ -1,0 +1,23 @@
+﻿html {
+    background: url(/Img/background.jpg) no-repeat center center fixed;
+    background-size: cover;}
+.form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsla(0,100%,100%,0.7);
+    margin: 10px;
+    padding: 10px;}
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsla(0,100%,100%,0.7);
+    margin: 0 auto;}
+#tname {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#th {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid black;}
+td {
+    padding: 10px;}
